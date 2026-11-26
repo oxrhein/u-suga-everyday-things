@@ -8,9 +8,9 @@ Stdlib only, no network, deterministic.
 
 import os
 
-# Two lines, 257 characters total. The gate (RULES.txt) allows 1-400.
-LINE_1 = "A toaster is a tiny lift that carries your bread down into a hot basement and brings it back up brown and crunchy."
-LINE_2 = "The lift explains the ride down and back up, but it leaves out the glowing wires that do the heating \u2014 a real lift never cooks its passengers."
+# Two lines, 251 characters total. The gate (RULES.txt) allows 1-400.
+LINE_1 = "A toaster is a tiny lift that drops your bread into a hot basement and brings it back up brown and crunchy."
+LINE_2 = "The lift explains the ride down and back up, but it leaves out the glowing wires that do the cooking \u2014 a real lift never toasts its passengers."
 
 ENTRY = LINE_1 + "\n" + LINE_2 + "\n"
 
